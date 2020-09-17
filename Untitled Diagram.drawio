@@ -1,1 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2020-09-17T05:58:08.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51" version="13.7.2" etag="_6uMFma3qTxxCJn0huVW" type="github"><diagram id="7O_S_j63eSMlsEh8bwZn">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-17T10:53:03.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51" etag="LOQcKM0lkNj4_ppgUKcI" version="13.7.2" type="github">
+  <diagram id="7O_S_j63eSMlsEh8bwZn" name="Page-1">
+    <mxGraphModel dx="539" dy="329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RjFYXqnn6Na-EKFTK0lm-1" value="Engine" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#205867;fontColor=#FFFFFF;fontFamily=Lucida Console;fontSize=15;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjFYXqnn6Na-EKFTK0lm-2" value="" style="shape=flexArrow;endArrow=classic;html=1;width=6.285714285714286;endSize=5.811428571428571;endWidth=7.2653061224489806;fillColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="116" as="sourcePoint" />
+            <mxPoint x="400" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjFYXqnn6Na-EKFTK0lm-6" value="1 运行Action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Lucida Console;labelBackgroundColor=none;" vertex="1" connectable="0" parent="RjFYXqnn6Na-EKFTK0lm-2">
+          <mxGeometry x="-0.2339" y="4" relative="1" as="geometry">
+            <mxPoint x="17.86" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjFYXqnn6Na-EKFTK0lm-3" value="Task&lt;br style=&quot;font-size: 15px;&quot;&gt;Executor" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;fontFamily=Lucida Console;fontColor=#FFFFFF;fillColor=#205867;" vertex="1" parent="1">
+          <mxGeometry x="414" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjFYXqnn6Na-EKFTK0lm-13" value="" style="shape=flexArrow;endArrow=classic;html=1;width=6.285714285714286;endSize=5.811428571428571;endWidth=7.2653061224489806;fillColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="140" as="sourcePoint" />
+            <mxPoint x="230" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjFYXqnn6Na-EKFTK0lm-14" value="2 回写结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Lucida Console;labelBackgroundColor=none;" vertex="1" connectable="0" parent="RjFYXqnn6Na-EKFTK0lm-13">
+          <mxGeometry x="-0.2339" y="4" relative="1" as="geometry">
+            <mxPoint x="-17.86" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjFYXqnn6Na-EKFTK0lm-15" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;同步Action&lt;/b&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="256" y="60" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
